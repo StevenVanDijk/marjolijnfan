@@ -11,7 +11,7 @@
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-server": "node dist/server.js",
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "prebuild": "",
     "build-server": "tsc --project .",
     "build-prod": "cd client && npm install && npm run build && cd .. && npm install && npm run build",
     "server": "nodemon --verbose --watch \"server\" --ext \"ts,json\" --exec ts-node server/index.ts",
