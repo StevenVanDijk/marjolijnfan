@@ -23,7 +23,7 @@
 
   <script>
     function setServerResponse() {
-        fetch("/api")
+        fetch("/api/httpTrigger1")
         .then((response) => response.text())
         .then((responseText) => {
           document.getElementById('responseContainer').innerHTML = responseText
