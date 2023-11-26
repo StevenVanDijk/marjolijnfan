@@ -18,6 +18,7 @@
     "dev": "concurrently \"npm run client\" \"npm run server\""
   },
   "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.1.6",
     "@types/node": "^18.14.6"
   },
   "dependencies": {

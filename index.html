@@ -23,7 +23,7 @@
 
   <script>
     function setServerResponse() {
-        fetch("http://localhost:3000/")
+        fetch("/api")
         .then((response) => response.text())
         .then((responseText) => {
           document.getElementById('responseContainer').innerHTML = responseText
@@ -41,8 +41,6 @@
   <script src="js/main.js"></script>
 
   <h1>Bumba is een clowntje!</h1>
-
-  <button onclick="setServerResponse()">I like to be pressed</button>
 
   <div id="responseContainer"></div>
   
